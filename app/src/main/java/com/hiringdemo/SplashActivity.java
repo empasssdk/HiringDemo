@@ -44,7 +44,7 @@ public class SplashActivity extends AwesomeSplash {
     @Override
     public void animationsFinished() {
         try {
-            Hiring.initializeHiring(this, "empkitf9ojasdf09ausdjad", "empass-hiring", "Test", "error.empass@gmail.com");
+            Hiring.initializeHiring(this, "your token", "auth type", "Test", "support email");
         } catch (Exception e) {
             LogUtils.errorException(e);
         }
